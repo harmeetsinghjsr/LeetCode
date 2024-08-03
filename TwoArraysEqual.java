@@ -1,3 +1,4 @@
+//Leetcode problem: 1460. Make Two Arrays Equal by Reversing Sub-arrays
 import java.util.Arrays;
 public class TwoArraysEqual {
     public boolean canBeEqual(int[] target, int[] arr) {
