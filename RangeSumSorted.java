@@ -1,4 +1,5 @@
 //Leetcode problem: 1508. Range Sum of Sorted Subarray Sums
+import java.util.Arrays;
 public class RangeSumSorted {
     public int rangeSum(int[] nums, int n, int left, int right) {
         int[] subarraySums = new int[n * (n + 1) / 2];
