@@ -1,21 +1,30 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 //Leetcode problem: 2053. Kth Distinct String in an Array
 //Problem link: https://leetcode.com/problems/kth-distinct-string-in-an-array/
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 public class KthDistinctStringArray {
     public String kthDistinct(String[] arr, int k) {
-        Set<String> set = new HashSet<>();
+        Map<String, Integer> countMap = new HashMap<>();
         for (String s : arr) {
-            set.add(s);
+            countMap.put(s, countMap.getOrDefault(s, 0) + 1);
         }
-        String[] distinct = set.toArray(new String[0]);
-        Arrays.sort(distinct);
-        return distinct[k - 1];
+        int distinctCount = 0;
+        for (String s : arr) {
+            if (countMap.get(s) == 1) {
+                distinctCount++;
+                if (distinctCount == k) {
+                    return s;
+                }
+            }
+        }
+        return "";
     }
+
     public static void main(String[] args) {
         KthDistinctStringArray ob = new KthDistinctStringArray();
-        String[] arr = {"a", "b", "c", "a", "b", "c"};
+        String[] arr = {"d", "b", "c", "b", "c", "a"};
         int k = 2;
         System.out.println(ob.kthDistinct(arr, k));
     }
