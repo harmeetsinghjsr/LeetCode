@@ -1,6 +1,8 @@
 //Leetcode problem: 2053. Kth Distinct String in an Array
 //Problem link: https://leetcode.com/problems/kth-distinct-string-in-an-array/
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 public class KthDistinctStringArray {
     public String kthDistinct(String[] arr, int k) {
         Set<String> set = new HashSet<>();
