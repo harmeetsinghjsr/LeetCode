@@ -1,3 +1,4 @@
+import java.util.*;
 public class CombinationSumII {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
@@ -20,6 +21,15 @@ public class CombinationSumII {
                 backtrack(result, tempList, candidates, remain - candidates[i], i + 1);
                 tempList.remove(tempList.size() - 1);
             }
+        }
+    }
+    public static void main(String[] args) {
+        CombinationSumII obj = new CombinationSumII();
+        int[] candidates = {10,1,2,7,6,1,5};
+        int target = 8;
+        List<List<Integer>> result = obj.combinationSum2(candidates, target);
+        for (List<Integer> list : result) {
+            System.out.println(list);
         }
     }
 }
