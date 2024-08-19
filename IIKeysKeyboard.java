@@ -1,5 +1,5 @@
 //Leetcode Problem: 650. 2 Keys Keyboard
-public class 2KeysKeyboard {
+public class IIKeysKeyboard {
     public int minSteps(int  n){
         int[] dp =new int[n+1];
         for(int i=2;i<=n;i++){
@@ -14,7 +14,8 @@ public class 2KeysKeyboard {
         return dp[n];
     }
     public static void main(String[] args) {
-        2KeysKeyboard obj = new 2KeysKeyboard();
-        System.out.println(obj.minSteps(3));
+        IIKeysKeyboard obj = new IIKeysKeyboard();
+        int x = obj.minSteps(3);
+        System.out.println(x);
     }
 }
