@@ -36,7 +36,7 @@
 //     }
 // }
 
-class FractionAddSub {
+public class FracrtionAddSub {
     public String fractionAddition(String expression) {
         int n = expression.length();
         int c = 0;
