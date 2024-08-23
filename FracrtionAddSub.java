@@ -104,4 +104,9 @@ class FractionAddSub {
             return a;
         return helper(b, a % b);
     }
+    public static void main(String[] args) {
+        FractionAddSub fas = new FractionAddSub();
+        String expression = "-1/2+1/2";
+        System.out.println(fas.fractionAddition(expression));
+    }   
 }
