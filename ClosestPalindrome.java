@@ -68,8 +68,8 @@ class ClosestPalindrome {
     }
     
     public static void main(String[] args) {
-        String n="120";
-        Solution cp = new Solution();
+        String n="4535879349465224";
+        ClosestPalindrome cp = new ClosestPalindrome();
         String result = cp.nearestPalindromic(n);
         System.out.println(result);
     }
