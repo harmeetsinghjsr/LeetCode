@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem: 725. Split Linked List in Parts
 public class LinkedListSplitclass {
 

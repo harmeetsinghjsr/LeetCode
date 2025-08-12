@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem 1331. Rank Transform of an Array
 public class RankTransformofanArray {
     public int[] arrayRankTransform(int[] arr) {
