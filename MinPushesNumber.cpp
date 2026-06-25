@@ -1,3 +1,8 @@
+#include <vector>
+#include <string>
+#include <algorithm>
+using namespace std;
+
 //Leetcode problem: 3016. Minimum Number of Pushes to Type Word II
 //Link: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/
 class Solution {
@@ -18,3 +23,7 @@ public:
         return ans;
     }
 };
+int main() {
+    // TODO: Add test cases
+    return 0;
+}

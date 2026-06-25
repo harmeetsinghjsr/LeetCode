@@ -32,3 +32,7 @@ public:
 		return res;
 	}
 };
+int main() {
+    // TODO: Add test cases
+    return 0;
+}

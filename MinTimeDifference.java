@@ -1,3 +1,5 @@
+import java.util.*;
+
 // Leetcode Probem 539. Minimum Time Difference
 public class MinTimeDifference {
     public int findMinDifference(List<String> timePoints) {

@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem 1514. Path with Maximum Probability
 public class PathwithMaxProbablity {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
