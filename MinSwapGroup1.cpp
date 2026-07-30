@@ -1,3 +1,7 @@
+#include <vector>
+#include <algorithm>
+using namespace std;
+
 //Leetcode Problem: 2134. Minimum Swaps to Group All 1's Together
 class Solution {
 public:
@@ -36,3 +40,7 @@ public:
         return totalOnes - maxCount;
     }
 };
+int main() {
+    // TODO: Add test cases
+    return 0;
+}

@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem 2699. Modify Graph Edge Weights
 public class ModifyGraphEdgeWeights {
     public int[][] modifiedGraphEdges(int n, int[][] edges, int source, int destination, int target) {

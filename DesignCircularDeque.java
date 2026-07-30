@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem 641. Design Circular Deque
 public class DesignCircularDeque {
     private int[] arr;

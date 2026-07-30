@@ -1,5 +1,7 @@
 //Problem: 1051. Height Checker
 //LeetCode: https://leetcode.com/problems/height-checker/
+import java.util.Arrays;
+
 public class HeightChecker {
     public static int heightChecker(int[] heights) {
         int[] expected = Arrays.copyOf(heights, heights.length);

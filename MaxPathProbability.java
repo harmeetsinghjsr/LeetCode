@@ -1,4 +1,6 @@
 //Leetcode Problem 1514. Path with Maximum Probability
+import java.util.*;
+
 public class MaxPathProbability {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
         Map<Integer, List<double[]>> graph = new HashMap<>();

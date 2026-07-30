@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem 386. Lexicographical Numbers
 public class LexicographicalNumbers {
     public List<Integer> lexicalOrder(int n) {

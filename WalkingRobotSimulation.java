@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode Problem: 874. Walking Robot Simulation
 class WalkingRobotSimulation {
     public int robotSim(int[] commands, int[][] obstacles) {

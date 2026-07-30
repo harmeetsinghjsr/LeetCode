@@ -1,0 +1,10 @@
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+.DS_Store
+.vscode/
+.idea/
+temp*

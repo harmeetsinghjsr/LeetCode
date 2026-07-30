@@ -1,3 +1,5 @@
+import java.util.*;
+
 //Leetcode problem: 624. Maximum Distance in Arrays
 public class MaximumDistanceinArrays {
     public int maxDistance(List<List<Integer>> arrays) {

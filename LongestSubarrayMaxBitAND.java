@@ -20,11 +20,12 @@ public class LongestSubarrayMaxBitAND {
         }
         return ans;
     }
-}
-public static void main(String[] args) {
-    LongestSubarrayMaxBitAND solution = new LongestSubarrayMaxBitAND();
-    int[] nums1 = {1, 2, 3, 3, 2, 2};
-    int[] nums2 = {1, 2, 3, 4};
-    System.out.println(solution.longestSubarray(nums1)); // Output: 2
-    System.out.println(solution.longestSubarray(nums2)); // Output: 1
+    
+    public static void main(String[] args) {
+        LongestSubarrayMaxBitAND solution = new LongestSubarrayMaxBitAND();
+        int[] nums1 = {1, 2, 3, 3, 2, 2};
+        int[] nums2 = {1, 2, 3, 4};
+        System.out.println(solution.longestSubarray(nums1)); // Output: 2
+        System.out.println(solution.longestSubarray(nums2)); // Output: 1
+    }
 }
